@@ -4,7 +4,7 @@ Welcome to my Big Ol' Repository O' Code!
 
 Actually, it's really not that large, but it does, in fact, contain code!
 
-Anyways, this repository contains several different projects that I am working on for a BBC micro:bit!
+Anyways, this repository contains several different projects that I am working on for a BBC micro:bit! The [micro:bit](https://www.microbit.org) is a small computing device that runs [MicroPython](https://micropython.org).
 
 Please note that I am using the following:
 
