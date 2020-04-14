@@ -38,17 +38,18 @@ def MultiPin_Playback(Song1, Song2, Ticks, BPM):
     iteration = 0
     music.set_tempo(ticks=Ticks, bpm=BPM)
     while (iteration < len(Single_Step_Melody)):
-        for spam in range(0,int(60000/BPM/Ticks/2),1):
+        for spam in range(0,int(60000/BPM/Ticks/4),1):
             music.play(Single_Step_Melody[iteration], wait=False, pin=pin0)
             sleep(1)
             try:
                 music.play(Single_Step_Harmony[iteration], wait=False, pin=pin1)
             except:
-                pass
+                print("Error on pin1")
             sleep(1)
         iteration += 1
     music.stop(pin0)
     music.stop(pin1)
+    reset()
 
 def Play_Song(Song, Ticks, BPM, Display_Image):
     display.show(Display_Image)
@@ -62,7 +63,6 @@ def End_Program():
         music.pitch(freq, 5)
     sleep(1000)
     quit("The program has been ended\n\nGoodby!")
-
 
 #Oh yeah, this is big brain
 while ((False != False) != (True == (2+2==4))):

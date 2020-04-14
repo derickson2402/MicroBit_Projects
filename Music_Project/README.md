@@ -21,10 +21,11 @@ Create your own list in the software, plug it in to the function, and have some 
 
 This is where the fun begins!
 
-The MultiPin_Playback program allows two independent songs to be played simultaneously by the microbit! Normally, the microbit can only output audio to one pin at a time, and cannot run parallel processes unless you use Java and have way more patience than me. By alternating between two songs as fast as possible (about 1ms), both songs appear to play simultaneously. It sounds kinda gross, but hey, it's kinda neat.
+The MultiPin_Playback program allows two independent songs to be played simultaneously by the microbit! Normally, the microbit can only output audio to one pin at a time, and cannot run parallel processes unless you use Java and have way more patience than me. By alternating between two songs as fast as possible (about 1ms), both songs appear to play simultaneously. It sounds kinda gross, but hey, it's  neat.
 
 **TL:DR**: I spent way too much time making a mediocre solution to play 2 songs at the same time. Enjoy!
 
 The program is largely intended for playing a harmony and a melody, and for logistic reasons the songs must be the same length or else an error will occur.
 
 Other than that, simply enter both songs, the ticks per beat, and the BPM of the song to get started.
+
