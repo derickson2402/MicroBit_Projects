@@ -1,3 +1,7 @@
+I had fun working on this project during the Covid-19 pandemic, but I am retiring this repo for now (plus I don't own a micro:bit). If you have interest in any of these projects please let me know and I can try to connect you to more resources or give you some ideas!
+
+---
+
 # Daniel's BBC micro:bit Repository
 
 Welcome to my Big Ol' Repository O' Code!
